@@ -20,6 +20,6 @@ primary_region = "ewr"
   processes = ["app"]
 
 [http_service.http_options.response.headers]
-  fly-request-id = false
-  fly-wasnt-here = "yes, it was"
-  multi-valued = ["value1", "value2"]
+fly-request-id = false
+fly-wasnt-here = "yes, it was"
+multi-valued = ["value1", "value2"]
